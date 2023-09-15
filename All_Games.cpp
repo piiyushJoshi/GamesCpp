@@ -3,7 +3,6 @@
 #include <cwchar>
 #include <windows.h>
 #include <time.h>
-
 using namespace std;
 
 int pColors[9] = {247,247,247,247,247,247,247,247,247};
@@ -182,7 +181,7 @@ void quiz(){                             //-------------------------------------
 	{"MI6","CIA","ISI","N.O.T"},
 	{"Heraclitus","phythagoras","Anaximander","Thales"},
 	{"LMP Edgar","CMP Stuart","Neil Armstrong","None of them"},
-	{"National Assembly","National people’s Congress","Fedral parliament","None"},
+	{"National Assembly","National peopleâ€™s Congress","Fedral parliament","None"},
 	{"Europe","Asia","Africa","America"},
 	{"Washington Dc","Alaska","Hawaii","California"},
 	{"Argentina","Israel","Jordan","Egypt"},
@@ -190,7 +189,7 @@ void quiz(){                             //-------------------------------------
 					    };
 	string correctOptions[10] = {
 		"Chile","America","CIA","Anaximander",
-		"Neil Armstrong","National people’s Congress","Africa",
+		"Neil Armstrong","National peopleâ€™s Congress","Africa",
 		"Washington DC","Jordan","Pacific Ocean"
 								};
 	int userOptions[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
